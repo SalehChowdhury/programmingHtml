@@ -3,7 +3,7 @@
     padding: 0;
 }
 a{
-    text-decoration: none; /*delete underline/anchor tag*/ 
+    text-decoration: none;          /*delete underline/anchor tag*/ 
 }
 html{
     scroll-behavior: smooth;
@@ -16,12 +16,11 @@ html{
     margin: 0px auto;
 }
 .navbar{
-    display: flex;
-    /*justify-content: space-between;*/
-    padding: 21px 0;
+    display: flex;    
+    padding: 21px 0;    /*justify-content: space-between;*/
 }
 .logo{
-    flex-basis: 20%;  /*same-as justify-content: space-between;*/    
+    flex-basis: 20%;    /*same-as justify-content: space-between;*/    
 }
 .logo img{
     margin-top: 11px;
@@ -31,9 +30,9 @@ html{
     text-align: center;
 }
 .menu ul li{
-    list-style: none;   /*delete bullet point*/
-    display: inline-block; /*line display vartical*/
-    line-height: 57px;  /*adjust line-height*/
+    list-style: none;        /*delete bullet point*/
+    display: inline-block;   /*line display vartical*/
+    line-height: 57px;       /*adjust line-height*/
     margin-right: 16px;
 }
 .menu ul li a{
@@ -60,7 +59,7 @@ html{
     height: 100vh;
 }
 .content{       
-    display: flex;      /*alongside=পাশাপাশি=display: flex;*/
+    display: flex;           /*alongside=পাশাপাশি=display: flex;*/
     height: 90vh;
     align-items: center;
 }
@@ -75,7 +74,7 @@ html{
     color: #a0a0a0;
     margin-bottom: 32px;
 }
-.banner-left a i{    /*icon design*/
+.banner-left a i{            /*icon design*/
     width: 40px;
     height: 40px;
     color: #a0a0a0;
@@ -104,7 +103,7 @@ html{
 .category{
     margin: 12px;
     /*text-align: center;*/
-    flex-grow: 1;   /*all image take same size*/
+    flex-grow: 1;                /*all image take same size*/
 }
 .category img:hover{
     box-shadow: 8px 8px 9px 3px rgb(121, 118, 118);
