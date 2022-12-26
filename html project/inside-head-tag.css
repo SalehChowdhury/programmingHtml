@@ -1,0 +1,9 @@
+/*link with inside-head-tag.html*/
+h1 {
+    text-align: center;
+    color: blue;
+    background-color: rgb(114, 189, 133);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

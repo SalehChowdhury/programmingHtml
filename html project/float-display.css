@@ -1,0 +1,15 @@
+/*link with float-display.html*/
+.bangla{
+    border: 5px solid blue;
+    border-radius: 20px;
+    margin: 10px;
+    width: 600px;
+    /*float: left;*/
+    display: inline-block;
+}
+#desh{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}

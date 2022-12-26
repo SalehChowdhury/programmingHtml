@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    width: 600px;
+    height: 400px;
+    margin: 60px auto;
+    border: 10px solid black;
+    padding: 30px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;  
+    flex-direction: column-reverse;
+}
+.item-1{
+    border: 6px solid rgb(224, 11, 11);
+    padding: 10px;
+    margin: 10px 10px;
+    height: 80px;    
+}
+.first{
+    order: -1 ;
+}
+.second{
+    order: -2;
+}
+.third{
+  order: -3;  
+}
+ 

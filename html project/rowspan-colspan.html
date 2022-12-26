@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rowspan-colspan</title>
+    <style>
+        table, th, td{
+            border: 2px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width:300px;
+            height: 200px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th colspan="2">PHONE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>saleh</td>
+                <td>017</td>
+                <td rowspan="3">018</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>ahmed</td>
+                <td>017</td>
+
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>chowdhury</td>
+                <td>017</td>
+            
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.header ul {
+  list-style: none;
+}
+.header ul li {
+  display: inline-block;
+}
+.header {
+  text-align: center;
+  font-size: 16pt;          
+  background-color: rgb(2, 0, 7);
+}
+.header ul li a {
+  color: white;
+  line-height: 40px;
+  text-decoration: none; /*remove underline*/
+  margin: 5px;           /*make word distance 5px*/
+}                      
+.header ul li a:hover{  
+    color: red;          /*mouse hover change color red*/
+    background-color: lightblue;
+    border-radius: 5px;
+}
+

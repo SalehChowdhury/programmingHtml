@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <h2>Course Registration Form</h2>
+    <caption></caption>
+    <form action="">
+      <div>
+        <label for="fullname">Fullname:</label>
+        <input type="text" name="fullname" id="fullname" required/>
+      </div><br>
+      <div>
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email" />
+      </div><br>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+      </div><br>
+      <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob" />
+      </div><br>
+      <div>
+        <label for="photo">Choose Your Photo:</label>
+        <input type="file" name="photo" id="photo" />
+      </div><br>
+      <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender" value="male" />Male
+        <input type="radio" name="gender" id="gender" value="female" />Female
+      </div><br>
+      <div>
+        <label for="religion">Religion:</label>
+        <input type="checkbox" name="religion" id="muslim" value="islam" />Islam
+        <input type="checkbox" name="religion" id="hindu" value="hindu" />Hindu
+      </div><br>
+      <div>             <!--drop down menu-->
+        <label for="depertment">Depertment:</label> 
+        <select name="depertment">
+        <option value="eee">EEE</option>
+        <option value="cse" selected>CSE</option>
+        <option value="llb">LLB</option>
+        </select>
+      </div><br>
+      <div>            <!--text area-->
+        <label for="message">Message</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
+      <div>            <!--button-->
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+      </div>
+              
+
+    </form>
+  </body>
+</html>
