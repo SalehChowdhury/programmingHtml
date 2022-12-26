@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.registration-form{
+    background: linear-gradient(to right, #27dbe9, #e3e67d);
+    height: 100vh;
+    padding: 130px 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.form-box{
+    width: 50%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 56px;
+    border-radius: 5px;
+}
+.form-box h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
