@@ -35,25 +35,65 @@ html{
     line-height: 57px;       /*adjust line-height*/
     margin-right: 16px;
 }
+
+
+.nav-item{
+    position: relative;
+}
+.nav-item::before{          /*with before must use content*/
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background: red;
+    bottom: 0;
+}
+.nav-item:hover::before{
+    width: 100%;
+    transition: 0.5s;
+}
+.nav-item::after{          /*with before must use content*/
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background: red;
+    top: 0;
+    left: 0;
+}
+.nav-item:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+
+
 .menu ul li a{
     /*text-transform: uppercase;*/
     font-family: 'Poppins', sans-serif;
-    color: #000;    
+    color: rgb(0, 0, 0);    
 }
 .header-btn{
     flex-basis: 30%;
     text-align: right;     
 }
 .header-btn button{
-    background: #ff6162;
+    background: transparent;     /*#ff6162*/
     padding: 18px 39px;
-    border: none;
-    color: white;
+    border: 12px solid #ff6162;       /*none*/
+    color: #ff6162;                        /*white*/
     font-size: 18px;    
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     border-radius: 6px;
 }
+.header-btn button::before{
+    content: '';          /*check none*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
 
 
 .banner{

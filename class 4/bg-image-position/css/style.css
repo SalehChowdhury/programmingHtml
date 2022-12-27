@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: coral;
+    margin: 60px auto;
+    position: relative;
+}
+.inner-box{
+    width: 40px;
+    height: 40px;
+    background-color: coral;
+    position: absolute;
+    bottom: -15px;
+    left: 40px;
+    transform: rotate(45deg);
+}
+.square{
+    width: 350px;
+    height: 200px;
+    background-color: green;
+    margin: 100px auto;
+    position: relative;
+}
+.circle{
+    width: 110px;
+    height: 110px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 115px;
+}
