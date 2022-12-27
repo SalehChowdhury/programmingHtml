@@ -1,26 +1,57 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.registration-form{
+.registration-form {
+  background: linear-gradient(to right, #27dbe9, #e3e67d);
+  height: 100vh;
+  padding: 130px 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.form-box {
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 56px;
+  border-radius: 5px;
+}
+.form-box h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.form-box form input {
+  display: block;
+  width: 94%;
+  padding: 16px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.last{
+    display: inline-block !important;
+    width: auto !important;
+}
+.form-btn{
     background: linear-gradient(to right, #27dbe9, #e3e67d);
-    height: 100vh;
-    padding: 130px 0;
+    border: none;
+    width: 100% !important;
+    margin: 16px 4px;
+    transition: 0.5s;
 }
-.container{
-    width: 1140px;
-    margin: 0 auto;
+.form-btn:hover{
+    color: #fc0505;
+    background: #837bb1;
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
 }
-.form-box{
-    width: 50%;
-    background-color: white;
-    margin: 0 auto;
-    padding: 56px;
-    border-radius: 5px;
-}
-.form-box h2{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
+.form-control:focus{
+    border: none;
+    border: 1px solid #1afc05;
+}/*
+.form-control::placeholder{
+    color: #fc0505;
+}*/
