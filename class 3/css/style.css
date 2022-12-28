@@ -110,11 +110,13 @@ html{
 
 
 .social-icon{
-position: fixed;
+    position: fixed;
+    left: -30px;
+    transition: 0.5s;
 }
 .social-icon ul li{
     list-style: none;
-    width: 16px;
+    width: 46px;
     height: 30px;
     background: #4f4a8d;
     padding: 16px;
