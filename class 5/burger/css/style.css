@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
 }
-/*@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');*/
 
 /*font-family: 'Alfa Slab One', cursive;
 font-family: 'Bebas Neue', cursive;
 font-family: 'Montserrat', sans-serif;*/
+
+header{              /*bg image covered header part*/
+    position: absolute;
+    width: 100%;
+}
 .container{
     margin: 0 auto;
     width: 1140px;
@@ -14,20 +19,14 @@ font-family: 'Montserrat', sans-serif;*/
 a,a:hover{
     text-decoration: none;
 }
-/*.header{
-
-}*/
+/*.header{}*/
 .nav{
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
 }
-/*.logo img{
-    
-}
-.menu{
-    
-}*/
+/*.logo img{}
+.menu{}*/
 .menu .top-contact{
     text-align: right;
     letter-spacing: 1px;
@@ -57,3 +56,110 @@ a,a:hover{
     letter-spacing: 2px;
 }
 
+/*banner section*/
+.banner{
+    width: 100%;
+    background: url(../img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    /*padding: 160px 40px;*/
+}
+.content-left{
+    flex-basis: 50%;
+}
+.inner{
+    height: 130vh;
+    display: table-cell;
+    vertical-align: middle;    
+}
+.inner span{
+    font-family: 'Bebas Neue', cursive;
+    border: 2px dashed #3d2514;             /*border*/
+    padding: 8px;
+    color: #3d2514;
+}
+.inner h1{
+    font-size: 114px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 4px 4px white;         /*text-shadow*/
+}
+.inner h2{
+    font-size: 56px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 3px 4px white;
+    letter-spacing: 2px;
+}
+.content-right{
+    flex-basis: 50%;
+}
+.content-right img{
+    width: 100%;
+    margin-top: 180px;
+}
+
+/*burger marketing section start*/
+.burgers{
+    width: 100%;
+    padding: 80px 0;
+}
+.gallery{
+    display: flex;
+}
+.g-left{
+    flex-basis: 50%;
+    margin: 20px;
+}
+.g-right{
+    flex-basis: 50%;
+    margin: 20px;
+}
+.gallery img{
+    width: 100%;
+}
+.item{
+    position: relative;
+}
+.item-text{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+.item-text h3{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+.item-text h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 42px;
+}
+.item-top{
+    margin-bottom: 33px;
+}
+/*barger marketing section end*/
+
+.button{
+    text-align: center;
+    margin-top: 24px;
+}
+.button button{
+    color: #3d2514;
+    text-transform: uppercase;
+    background: #ffc045;
+    padding: 16px 36px;
+    font-size: 22px;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+}
