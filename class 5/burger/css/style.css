@@ -148,8 +148,6 @@ a,a:hover{
 .item-top{
     margin-bottom: 33px;
 }
-/*barger marketing section end*/
-
 .button{
     text-align: center;
     margin-top: 24px;
@@ -163,3 +161,57 @@ a,a:hover{
     border: none;
     font-family: 'Bebas Neue', cursive;
 }
+/*barger marketing section end*/
+/*burger type section start*/
+.burger-type{
+    width: 100%;
+    padding: 0 0 80px 0;
+}
+.cat-text{
+    text-align: center;    
+}
+.cat-text h1{
+    font-size: 56px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.cat-text p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+.category{
+    display: flex;
+    margin-top: 36px;
+}
+.category img{
+    width: 100%;
+}
+.cat-item h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    font-size: 42px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.cat-item p{
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.cat-item button{
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    background: red;
+    padding: 16px 32px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 100px;
+}
+/*burger type section end*/
