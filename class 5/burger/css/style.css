@@ -257,7 +257,9 @@ a:hover {
 }
 /*burger slider section end*/
 /*burger reservation section start*/
-
+/*.form-box{
+  margin-bottom: 90px;
+}*/
 .titel h3 {
   font-family: "Bebas Neue", cursive;
   font-size: 30px;
@@ -269,6 +271,7 @@ a:hover {
   font-size: 42px;
   color: #3d2514;
   text-transform: uppercase;
+  margin-bottom: 60px;
 }
 .reservation .titel {
   position: relative;
@@ -278,20 +281,30 @@ a:hover {
 .bg-image img {
   position: absolute;
   width: 1140px;
-
 }
-.address {
+.address1 {
   width: 40%;
   background-color: white;
-  margin: 40px auto;
+  margin: 0px auto;
   padding: 12px;
   border-radius: 5px;
 }
-.address form input {
+.address1 form input {
   margin-top: 5px;
   display: inline-block;
   padding: 16px;
+  margin-bottom: 5px;
 }
-.address label input{
+.address2 form input {
+  display: inline-block;
+  padding: 16px;
+}
+.address3 form input {
+  display: inline-block;
+  padding: 16px 16px 16px 19px;
+  margin-top: 16px;
+  margin-right: 32px;
+}
+.address3 label input{
     background: #EF2E17;
 }
