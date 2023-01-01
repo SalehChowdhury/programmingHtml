@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+h1::before{                     /*Pseudo-element*/
+    content: "New";
+    color: blue;
+}
+.special-effect::after{         /*Pseudo-element*/
+    content: "&";
+}
+
+p::before{
+    content: "❤️";
+}
+
+
+input:focus{
+    color: red;
+    font-weight: 700;
+}
+.name-list ul li{
+    font-size: 24px;
+}
+.name-list ul li:nth-child(2n+1){  /*pseudo class nth-child*/
+    width: 100%;
+    color: red;
+    background-color: aqua;
+}
+.name-list ul li:hover{             /*pseudo class hover*/
+    color: blue;
+    font-weight: bold;
+}
+a{
+    font-size: 36px;
+}
+a:visited{                           /* visited link */
+    color: rgb(252, 2, 2);
+}
+div p::first-line {                 /*Pseudo-element first-line*/
+    color: #2600ff;
+    font-variant: small-caps;
+}
