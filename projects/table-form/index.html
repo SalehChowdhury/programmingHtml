@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table-form</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <table>
+        <caption>Table</caption>
+      <thead>
+        <tr>
+          <th>Number</th>
+          <th>Name</th>
+          <th>Company</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Bill Gates</td>
+          <td>Microsoft</td>
+          <td>$1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Steve Jobs</td>
+          <td>Apple</td>
+          <td>$1200</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry Page</td>
+          <td>Google</td>
+          <td>$1500</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Mark Zukerberg</td>
+          <td>Facebook</td>
+          <td>$1800</td>
+        </tr>
+      </tbody>
+    </table>
+                                           <!--form-->
+    <form action="" class="order">
+      <label for="" class="list">Order List</label>
+      <p>Name: <input placeholder="Input Your Name" type="text" required></p>
+      <p>Email: <input type="email"></p>
+      <p>Number: <input type="number" id=""></p>
+      <p>Password: <input type="password"></p>
+      <p>Password: <input type="password"></p>
+
+      <fieldset>
+        <legend>select your pitha</legend>
+        <p><label for="citoi"><input type="radio" name="pitha" id="citoi">citoi pitha</label></p>
+        <p><label for="vapa"><input type="radio" name="pitha" id="vapa">vapa pitha</label></p>
+        <p><label for="coi"><input type="radio" name="pitha" id="coi">coi pitha</label></p>
+      </fieldset>
+    </form>
+      <fieldset>
+        <legend>select your vorta</legend>
+        <p><label for="sidol"><input type="checkbox" name="" id="sidol">sidol vorta</label></p>
+        <p><label for="sorisa"><input type="checkbox" name="" id="sorisa">sorisa vorta</label></p>
+        <p><label for="sutki"><input type="checkbox" name="" id="sutki">sutki vorta</label></p>
+      </fieldset>
+      <fieldset>
+        <p><label for="">special instruction: <textarea name="" id="" cols="30" rows="10"></textarea></label></p>
+      </fieldset>
+      
+      <button type="submit">Submit Your Order</button>
+  </body>
+</html>
